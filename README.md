@@ -1,5 +1,19 @@
-# Douyin_Game_Data_Backend
+# 谷歌自动登陆设备验证码
 
+​	该项目是用于登陆谷歌设备验证码的自动化脚本，并搭建Web服务提供获取账号Bearer Token能力，用于 [AInoriex/crawler_youtube_downloader](https://github.com/AInoriex/crawler_youtube_downloader) 项目使用。
+
+
+
+## 相关框架
+
+1. yt-dlp（最终服务框架）
+2. yt-dlp-youtube-oauth2（验证设备验证码）
+3. selenium（登陆界面操作）
+4. fastapi（路由服务）
+
+
+
+## Deploy
 
 ### Linux Docker部署：
 ```
@@ -42,7 +56,6 @@ pip install --no-cache-dir -r requirements.txt
 # 进入项目目录，启动服务：
 python server.py
 ```
-
 
 
 
