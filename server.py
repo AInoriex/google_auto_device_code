@@ -66,5 +66,5 @@ if __name__ == "__main__":
             os.remove(flag_file_path)
 
     # uvicorn.run(app, host="0.0.0.0", port=8000)
-    uvicorn.run(app, host=os.getenv("host"), port=os.getenv("port"))
+    uvicorn.run(app, host=os.getenv("host"), port=int(os.getenv("port")))
 
